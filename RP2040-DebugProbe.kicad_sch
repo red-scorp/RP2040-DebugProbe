@@ -3499,6 +3499,31 @@
     )
   )
 
+  (symbol (lib_id "power:+1V1") (at 272.415 148.59 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2d415179-bee6-43b5-995e-974c2ef60b44)
+    (property "Reference" "#PWR072" (at 272.415 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+1V1" (at 272.415 144.78 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 272.415 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 272.415 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d51e29ee-031f-4410-8882-b8d00e9a04a9))
+    (instances
+      (project "RP2040-DebugProbe"
+        (path "/9a38a81c-7302-494f-9784-2ab4342a0a1d"
+          (reference "#PWR072") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 246.38 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2e6117e5-4576-4dce-9bd1-d4a338fdfe68)
@@ -3751,6 +3776,31 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 272.415 153.67 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 47f8de98-c022-449e-9510-ebddebb1406c)
+    (property "Reference" "#PWR073" (at 272.415 160.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 272.415 157.48 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 272.415 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 272.415 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7e5ddc90-b7e6-44d6-807d-b7981b561157))
+    (instances
+      (project "RP2040-DebugProbe"
+        (path "/9a38a81c-7302-494f-9784-2ab4342a0a1d"
+          (reference "#PWR073") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:LED_Small") (at 256.54 125.73 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4873d8fd-7ce3-44bb-8c5e-446ff10e7eb8)
@@ -3915,6 +3965,32 @@
       (project "RP2040-DebugProbe"
         (path "/9a38a81c-7302-494f-9784-2ab4342a0a1d"
           (reference "R3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 272.415 151.13 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4fb6814f-24ea-4d5a-8890-baba7f662e9e)
+    (property "Reference" "C18" (at 274.955 150.5013 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100nF" (at 274.955 153.0413 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 272.415 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 272.415 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 24749696-f674-4f40-8e4c-c99bdb9aaf0d))
+    (pin "2" (uuid 3eba8bef-bdf7-4852-9a2a-a7b145dd17e2))
+    (instances
+      (project "RP2040-DebugProbe"
+        (path "/9a38a81c-7302-494f-9784-2ab4342a0a1d"
+          (reference "C18") (unit 1)
         )
       )
     )
