@@ -2343,6 +2343,11 @@
       (net 50 "QSPI_SS") (pinfunction "3") (pintype "passive") (tstamp 6c38f41e-4015-4e60-9e47-d9f7784b22ac))
     (pad "4" smd rect (at 3.1 1.85 180) (size 1.8 1.1) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 43 "Net-(R7-Pad1)") (pinfunction "4") (pintype "passive") (tstamp 9f2b5fb7-9257-489b-a070-c6c4997d3e13))
+    (model "${KICAD7_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_TL3342.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
@@ -2606,7 +2611,7 @@
       (net 8 "SHIELD") (pinfunction "SHIELD") (pintype "passive") (tstamp af5810d1-1e05-4eb2-bcae-8258ae3a19a6))
     (pad "S1" thru_hole oval (at 4.32 1.05 270) (size 1 1.6) (drill oval 0.6 1.2) (layers "*.Cu" "*.Mask")
       (net 8 "SHIELD") (pinfunction "SHIELD") (pintype "passive") (tstamp aa111c94-d4cd-4484-b7e3-6a43b2ef61d3))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2806,7 +2811,7 @@
       (net 55 "QSPI_SD3") (pinfunction "IO3") (pintype "bidirectional") (tstamp 7185a4fa-00b5-493f-b64b-f4b57b254d32))
     (pad "8" smd roundrect (at 3.6 -1.905 180) (size 1.6 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "+3V3") (pinfunction "VCC") (pintype "power_in") (tstamp 2a96f0de-1c13-45c3-82d2-eeb43c6d6573))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_5.23x5.23mm_P1.27mm.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_5.275x5.275mm_P1.27mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
