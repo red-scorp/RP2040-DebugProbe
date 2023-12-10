@@ -513,7 +513,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "doc/RP2040-DebugProbe.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
