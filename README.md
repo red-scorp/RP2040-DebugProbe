@@ -31,7 +31,7 @@ Features:
 - Pin-compatible with Raspberry Pi Debug Probe.
 - Extra TARGET_RESET line connected to GPIO10 for target MCU reset over JTAG.
 
-TODO: CAM files, as well as the BOM and CPL files for JLCPCB, are available.
+CAM files, as well as the BOM and CPL files for JLCPCB, are available.
 
 ## Version History
 
