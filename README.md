@@ -10,13 +10,13 @@ This board features target JTAG connector and PC host USB Type-C connector. It a
 
 Preview:
 
-TODO: ![RP2040-DebugProbe Front preview](img/Front.png)
-TODO: ![RP2040-DebugProbe Back preview](img/Back.png)
-TODO: ![RP2040-DebugProbe Side View preview](img/SideView.png)
+![RP2040-DebugProbe Front preview](img/Front.png)
+![RP2040-DebugProbe Back preview](img/Back.png)
+![RP2040-DebugProbe Side View preview](img/SideView.png)
 
 You can view the [Schematics in PDF format](doc/RP2040-DebugProbe.pdf) for detailed information.
 
-TODO: STEP 3D file is available [with pins](doc/RP2040-DebugProbe.step).
+STEP 3D file is available [with pins](doc/RP2040-DebugProbe.step).
 
 Features:
 
@@ -37,7 +37,7 @@ TODO: CAM files, as well as the BOM and CPL files for JLCPCB, are available.
 
 ### v1.0b1
 
-TODO: ![v1.0b1 board preview](img/v1.0b1.png)
+![v1.0b1 board preview](img/v1.0b1.png)
 
 Initial release for testing purposes.
 
