@@ -6,7 +6,7 @@
 
   (title_block
     (title "RP2040-DebugProbe-0010")
-    (date "2023-12-07")
+    (date "2023-12-24")
     (rev "1.0")
     (company "(c) 2023 Andriy Golovnya")
     (comment 1 "RP2040 based Debug Probe")
@@ -2076,7 +2076,7 @@
     (uuid f96642b0-a888-4b8e-b16b-c67313a4b945)
   )
 
-  (text "USB protection" (at 38.1 158.75 0)
+  (text "USB protection" (at 78.74 106.68 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 03bdc120-786f-4d6e-a669-52ebb46c3dc9)
   )
